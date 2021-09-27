@@ -29,22 +29,13 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  box-sizing: inherit;
 }
 
 h1, h2 {
   color: #30658d;
   text-transform: uppercase;
   font-family: "Patua One", sans-serif;
-}
-
-nav {
-  font-size: 2rem;
-  font-family: "Patua One", sans-serif;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .intro {
@@ -63,4 +54,52 @@ nav a {
 
 .pano {
   grid-area: banner;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  font-family: "Patua One", sans-serif;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+figure {
+  margin: 0;
+}
+
+figure:nth-of-type(1) {
+  grid-area: col1:
+}
+
+figure:nth-of-type(2) {
+  grid-area: col2;
+}
+
+figure img {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #30658d;
+  margin: 0;
+  font-family: "Patua One", sans-serif;
+}
+
+p {
+  margin: 0;
 }
