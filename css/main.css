@@ -56,6 +56,11 @@ h1, h2 {
   grid-area: banner;
 }
 
+nav {
+  grid-column: 2 /-1;
+  grid-row: 1;
+}
+
 nav li {
   padding: 1rem;
 }
@@ -83,7 +88,7 @@ figure {
 }
 
 figure:nth-of-type(1) {
-  grid-area: col1:
+  grid-area: col1;
 }
 
 figure:nth-of-type(2) {
