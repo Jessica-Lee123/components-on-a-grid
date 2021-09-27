@@ -1,7 +1,7 @@
 html {
   background-color: #f2f1ed;
   box-sizing: border-box;
-  font-family: Patua One, sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -54,6 +54,7 @@ header {
 }
 
 .fonts {
-  color: #30658d
-  color: #fff
+  font-family: "Patua One", sans-serif;
+  color: #30658d;
+  color: #fff;
 }
