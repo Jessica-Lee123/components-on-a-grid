@@ -1,7 +1,7 @@
 html {
   background-color: #f2f1ed;
   box-sizing: border-box;
-  font-family: Georgia, serif;
+  font-family: Patua One, sans-serif;
   line-height: 1.5;
 }
 
@@ -51,4 +51,9 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+.fonts {
+  color: #30658d
+  color: #fff
 }
