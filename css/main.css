@@ -11,14 +11,14 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "banner banner"
-  "col1 col2";
+    "banner banner"
+    "col1 col2";
   gap: 1rem;
 }
 
@@ -43,4 +43,34 @@ header {
 
 .pano {
   grid-area: banner;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.box {
+  width: 24em; /* Without a width `auto` won’t work */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
