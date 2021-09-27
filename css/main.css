@@ -52,25 +52,3 @@ header {
   align-content: center;
   align-items: center;
 }
-
-ul li {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.box {
-  width: 24em; /* Without a width `auto` won’t work */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.banner {
-  position: relative;
-}
-
-.content {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
