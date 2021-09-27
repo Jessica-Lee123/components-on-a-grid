@@ -31,6 +31,32 @@ header {
   display: contents;
 }
 
+h1, h2 {
+  color: #30658d;
+  text-transform: uppercase;
+  font-family: "Patua One", sans-serif;
+}
+
+figcaption {
+  font-size: 2rem;
+  text-align: right;
+}
+
+nav {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "Patua One", sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro {
+  font-size: 1rem;
+}
+
 .logo {
   width: 14rem;
   grid-column: 1;
@@ -43,18 +69,4 @@ header {
 
 .pano {
   grid-area: banner;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-.fonts {
-  font-family: "Patua One", sans-serif;
-  color: #30658d;
-  color: #fff;
 }
