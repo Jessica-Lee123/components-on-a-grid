@@ -56,10 +56,6 @@ h1, h2 {
   grid-area: banner;
 }
 
-element.style {
-
-}
-
 nav {
   grid-column: 2 /-1;
   grid-row: 1;
